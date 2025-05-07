@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Таймер сну</string>
+    <string name="not_found_activity">Опцію таймера сну не знайдено</string>
+    <string name="error_send_intent">Помилка, перегляньте журнал</string>
+</resources>

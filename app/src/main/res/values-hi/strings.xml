@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">स्लीप टाइमर</string>
+    <string name="not_found_activity">स्लीप टाइमर विकल्प नहीं मिला</string>
+    <string name="error_send_intent">त्रुटि, लॉग जांचें</string>
+</resources>

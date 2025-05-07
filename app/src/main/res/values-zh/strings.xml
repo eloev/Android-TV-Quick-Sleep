@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">睡眠定时器</string>
+    <string name="not_found_activity">未找到睡眠定时器选项</string>
+    <string name="error_send_intent">发生错误，请检查日志</string>
+</resources>
