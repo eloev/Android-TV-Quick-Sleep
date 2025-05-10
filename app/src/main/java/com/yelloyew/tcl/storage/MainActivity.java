@@ -1,9 +1,10 @@
-package com.yelloyew.tcl.sleep;
+package com.yelloyew.tcl.storage;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.provider.Settings;
 import android.util.Log;
 import android.widget.Toast;
 
@@ -16,12 +17,7 @@ public class MainActivity extends Activity {
 
         if (savedInstanceState == null) {
             try {
-                Intent intent = new Intent("com.android.tv.settings.SLEEP_TIMER");
-                intent.setClassName(
-                        "com.android.tv.settings",
-                        "com.tcl.android.tv.settings.device.display.SleepTimeActivity"
-                );
-                intent.addCategory(Intent.CATEGORY_DEFAULT);
+                Intent intent = new Intent(Settings.ACTION_INTERNAL_STORAGE_SETTINGS);
                 if (getPackageManager().resolveActivity(intent, 0) != null) {
                     startActivity(intent);
                 } else {
@@ -29,7 +25,7 @@ public class MainActivity extends Activity {
                     Log.e("QuickSleep", "Not found sleep timer option");
                 }
             } catch (Exception e) {
-                Toast.makeText(this, getString(R.string.error_send_intent), Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, e.toString(), Toast.LENGTH_SHORT).show();
                 Log.e("QuickSleep", "Error send intent", e);
             }
         }

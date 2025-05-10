@@ -1,5 +1,0 @@
-<resources>
-    <string name="app_name">Schlaftimer</string>
-    <string name="not_found_activity">Schlaftimer-Option nicht gefunden</string>
-    <string name="error_send_intent">Fehler, siehe Protokolle</string>
-</resources>

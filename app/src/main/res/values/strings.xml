@@ -1,5 +1,4 @@
 <resources>
-    <string name="app_name">Sleep timer</string>
+    <string name="app_name">Storage</string>
     <string name="not_found_activity">Not found sleep timer option</string>
-    <string name="error_send_intent">Error, check logs</string>
 </resources>

@@ -1,5 +1,0 @@
-<resources>
-    <string name="app_name">Minuteur de sommeil</string>
-    <string name="not_found_activity">Option de minuteur de sommeil introuvable</string>
-    <string name="error_send_intent">Erreur, vérifiez les journaux</string>
-</resources>

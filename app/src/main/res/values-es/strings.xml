@@ -1,5 +1,0 @@
-<resources>
-    <string name="app_name">Temporizador de sueño</string>
-    <string name="not_found_activity">Opción de temporizador de sueño no encontrada</string>
-    <string name="error_send_intent">Error, consulta los registros</string>
-</resources>

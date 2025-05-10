@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace = "com.yelloyew.tcl.sleep"
+    namespace = "com.yelloyew.tcl.storage"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.yelloyew.tcl.sleep"
+        applicationId = "com.yelloyew.tcl.storage"
         minSdk = 28
         targetSdk = 35
         versionCode = 1
